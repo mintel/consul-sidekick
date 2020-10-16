@@ -1,4 +1,4 @@
-IMAGE=weaveworks/consul-sidekick
+IMAGE=mintel/consul-sidekick
 TAGGED_IMAGE=$(IMAGE):$(shell git rev-parse --abbrev-ref HEAD)-$(shell git rev-parse --short HEAD)
 
 .PHONY: all push
